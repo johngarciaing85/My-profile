@@ -156,15 +156,6 @@ export const educacion: Educacion[] = [
       en: "Training focused on programming, databases, software engineering, and system architecture.",
     },
   },
-  {
-    fecha: "2022 — 2026",
-    titulo: { es: "Formación técnica en Desarrollo de Software", en: "Technical training in Software Development" },
-    institucion: { es: "Universidad CES · Medellín", en: "CES University · Medellín" },
-    descripcion: {
-      es: "Bases de datos, álgebra booleana, teoría de grafos y arquitectura de sistemas.",
-      en: "Databases, boolean algebra, graph theory, and system architecture.",
-    },
-  },
 ];
 
 export interface Proyecto {
