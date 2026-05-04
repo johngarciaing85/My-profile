@@ -173,7 +173,7 @@ export const proyectos: Proyecto[] = [
   {
     estado: { es: "Desplegado en Digital Ocean", en: "Deployed on Digital Ocean" },
     estadoTipo: "vivo",
-    titulo: "JD",
+    titulo: " Almacen JD",
     tituloEm: "Sport",
     tagline: {
       es: "E-commerce full-stack con agente de ventas IA en dialecto paisa.",
