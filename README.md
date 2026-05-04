@@ -1,20 +1,20 @@
-# Portafolio · John García
+# Portafolio · John García Cely
 
 Landing page personal construida con **Next.js 15 + Tailwind CSS + Framer Motion**, lista para desplegar en Vercel.
 
 ## ✨ Características
 
-- 🌗 Dark mode minimalista con tipografía editorial (Fraunces + Geist + JetBrains Mono)
-- 🌐 Bilingüe (Español ↔ Inglés) con persistencia en localStorage
-- 🎬 Animaciones premium con Framer Motion (entrada escalonada, hover, scroll)
-- 🖱️ Cursor personalizado con efecto magnetic en elementos interactivos
-- 📊 Indicador de progreso de scroll
-- 📱 Totalmente responsive (mobile-first)
-- ♿ Accesible (semántica HTML correcta, contraste AAA)
-- ⚡ Optimizado para Core Web Vitals (fuentes con next/font, lazy loading)
-- 🔍 SEO listo (metadata completa, OpenGraph)
+-  Dark mode minimalista con tipografía editorial (Fraunces + Geist + JetBrains Mono)
+-  Bilingüe (Español ↔ Inglés) con persistencia en localStorage
+-  Animaciones premium con Framer Motion (entrada escalonada, hover, scroll)
+-  Cursor personalizado con efecto magnetic en elementos interactivos
+-  Indicador de progreso de scroll
+-  Totalmente responsive (mobile-first)
+-  Accesible (semántica HTML correcta, contraste AAA)
+-  Optimizado para Core Web Vitals (fuentes con next/font, lazy loading)
+-  SEO listo (metadata completa, OpenGraph)
 
-## 🚀 Desarrollo local
+##  Desarrollo local
 
 ```bash
 # Instalar dependencias
@@ -30,7 +30,7 @@ npm run start
 
 Abrir [http://localhost:3000](http://localhost:3000).
 
-## 📦 Deploy en Vercel (3 pasos)
+##  Deploy en Vercel (3 pasos)
 
 ### Opción 1: Desde GitHub (recomendado)
 
@@ -43,33 +43,6 @@ Abrir [http://localhost:3000](http://localhost:3000).
    git remote add origin https://github.com/johngarciaing85/portafolio.git
    git push -u origin main
    ```
-
-2. Entra a [vercel.com](https://vercel.com) → **Add New** → **Project**.
-
-3. Importa el repo. Vercel detecta Next.js automáticamente. Click en **Deploy**.
-
-¡Listo! Tu sitio quedará en `https://portafolio-tuusuario.vercel.app` en menos de 2 minutos.
-
-### Opción 2: CLI de Vercel
-
-```bash
-npm i -g vercel
-vercel
-```
-
-## 🎨 Personalización
-
-### Cambiar datos de contacto
-
-Editar `src/datos/traducciones.ts`:
-
-```typescript
-export const contacto = {
-  email: "tu-email-real@gmail.com",
-  github: "https://github.com/johngarciaing85",
-  linkedin: "https://linkedin.com/in/tu-perfil",
-};
-```
 
 ### Editar contenido
 
@@ -85,7 +58,7 @@ acento: '#d4ff4a',  // cámbialo por tu color
 'acento-suave': 'rgba(212, 255, 74, 0.08)',
 ```
 
-## 📁 Estructura
+## Estructura
 
 ```
 src/
@@ -113,7 +86,7 @@ src/
     └── traducciones.ts     # Diccionario ES/EN
 ```
 
-## 🛠️ Stack
+##  Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS 3.4
